@@ -1,5 +1,4 @@
 body {
-  /*change font-family & font-color */
   color: #FFFFFF;
   font-family: 'Lato', sans-serif;
   height: 200vh;
@@ -91,7 +90,6 @@ body {
 
 .floating-header {
   /* #A183E1 to #6F39E1*/
-  /* background-image: linear-gradient(to right, rgb(161,131,225, 0.8),  rgb(111,57,225,0.8));*/
   color: #FFFFFF;
   bottom: 0;
   height: 40%; 
@@ -134,7 +132,6 @@ body {
 
 
 .screen {
-  /* background: url("/Design_Assets/Screen.png") no-repeat; */
   background-color: transparent;
   width: 60%;
   -webkit-filter: drop-shadow(-.5rem .5rem .5rem rgb(0,0,0,0.4));
@@ -142,7 +139,6 @@ body {
 }
 
 .diamond {
-  /* background: url("/Design_Assets/Diamond.png") no-repeat; */
   background-color: transparent;
   width: 40%;
   -webkit-filter: drop-shadow(-.5rem 0 .5rem rgb(161, 131, 225,0.5));
