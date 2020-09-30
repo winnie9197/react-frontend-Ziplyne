@@ -1,10 +1,16 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
+import SectionOne from './components/SectionOne.js';
+import SectionTwo from './components/SectionTwo.js';
 
 function App() {
   return (
     <div className="App">
-		<p>This is App Content.</p>
+		  <Header />
+      <SectionOne />
+      <SectionTwo />
     </div>
   );
 }

@@ -1,13 +1,148 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /*change font-family & font-color */
+  color: #FFFFFF;
+  font-family: Lato, serif;
+  height: 200vh;  
+  background-size:100% auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+	height: 100%;
 }
+
+.App {
+  height: 100%;
+}
+
+/* Header */
+.logo {
+  height: 2.5rem;
+}
+
+.icon {
+  margin-left: 1rem;
+}
+
+.header {
+  /* #C4ADF4 */
+  background-color: rgb(196,173,244, 0.9);
+	color: #262A94;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+  /* #9A60F2 */
+  box-shadow: 0 1rem .5rem -.5rem rgb(154, 96, 242, 0.6);
+}
+
+.header-group {
+  width: 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.nav-link {
+  color: #262A94;
+}
+
+.nav-link:hover {
+  color: #262A94;
+  border-bottom: 1px solid #262A94;
+}
+
+.request-demo {
+  border: 0;
+  border-radius: .5rem;
+  padding: .2rem .4rem;
+  background-image: linear-gradient(#7246CE, #6F39E1, #7246CE);
+  color: #FFFFFF;
+  font-weight: lighter;
+}
+
+/* Section One */
+.section-one {
+  height: 50%;
+  background: url("/Design_Assets/SectionOne.png") no-repeat center center fixed;
+  display:flex; 
+  justify-content: flex-end; 
+  flex-direction: column;
+}
+
+.floating-header {
+  /* #A183E1 to #6F39E1*/
+  /* background-image: linear-gradient(to right, rgb(161,131,225, 0.8),  rgb(111,57,225,0.8));*/
+  color: #FFFFFF;
+  bottom: 0;
+  height: 40%; 
+  position: relative;
+}
+
+.floating-text {
+  /* Alternatively, use svg text */
+  /* z-index: 100;
+  font-size: 4rem;
+  fill: #FFFFFF; */
+
+  position: absolute;
+  font-weight: lighter;
+  bottom: 4rem;
+  left: 8rem;
+  letter-spacing: .1rem;
+
+  width: 32%;
+  text-align: left;
+  
+}
+
+/* section-two */
+.section-two {
+  height: 50%;
+  max-width: 100vw;
+  padding-top: 8rem;
+}
+
+.wrapper {
+  height: 4rem;
+  width: 4rem;
+}
+
+.screen {
+  /* background: url("/Design_Assets/Screen.png") no-repeat; */
+  background-size: contain;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  /* max-height: 4rem;
+  max-width: 4rem; */
+  /* width: 4rem; */
+}
+
+.diamond {
+  /* background: url("/Design_Assets/Diamond.png") no-repeat; */
+  background-size: contain;
+  background-position: center;
+  height: 200px;
+  width: 200px;
+  /* height: 4rem;
+  width: 4rem; */
+  /* width: 60%; */
+  object-fit: scale-down;
+}
+
+
+/* SVG code for wave */
+/* <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="538.505" viewBox="0 0 1920 538.505">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a183e1" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#6f39e1" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_1" data-name="Path 1" d="M1990,661.716c114.841,74,61.376-55.352,372.5-110.165,351.534-61.93,705.237,140.923,765.2,119.646,57.4,5.14,135.588-132.427,273.058-135.486,170.065-3.784,220.58,103.985,347.889,135.486S3910,661.716,3910,661.716v412.4H1990Z" transform="translate(-1990 -535.613)" fill="url(#linear-gradient)"/>
+</svg> */
