@@ -1,7 +1,7 @@
 body {
   /*change font-family & font-color */
   color: #FFFFFF;
-  font-family: Lato, serif;
+  font-family: 'Lato', sans-serif;
   height: 200vh;
   background-size:100% auto;
 }
