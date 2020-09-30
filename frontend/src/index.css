@@ -64,7 +64,21 @@ body {
   background-image: linear-gradient(#7246CE, #6F39E1, #7246CE);
   color: #FFFFFF;
   font-weight: lighter;
+  outline: 0 !important;
 }
+
+.request-demo:hover {
+  background-color:#FFFFFF;
+}
+
+.sign-in {
+  color: rgb(0,0,0,0.5);
+}
+
+.sign-in:hover {
+  color: rgb(0,0,0,0.5);
+}
+
 
 /* Section One */
 .section-one {
@@ -93,13 +107,13 @@ body {
   position: absolute;
   font-weight: lighter;
   text-align: left;
-  letter-spacing: .1rem;
+  letter-spacing: .3rem;
 }
 
 .section-one h1 {
   bottom: 4rem;
   left: 8rem;
-  width: 32%;
+  width: 40%;
 }
 
 /* section-two */
@@ -115,21 +129,24 @@ body {
   text-align: left;
   top: 4rem;
   left: 8rem;
-  width: 32%;
+  width: 40%;
 }
-
 
 
 .screen {
   /* background: url("/Design_Assets/Screen.png") no-repeat; */
   background-color: transparent;
   width: 60%;
+  -webkit-filter: drop-shadow(-.5rem .5rem .5rem rgb(0,0,0,0.4));
+  filter: drop-shadow(-.5rem .5rem .5rem rgb(0,0,0,0.4));
 }
 
 .diamond {
   /* background: url("/Design_Assets/Diamond.png") no-repeat; */
   background-color: transparent;
   width: 40%;
+  -webkit-filter: drop-shadow(-.5rem 0 .5rem rgb(161, 131, 225,0.5));
+  filter: drop-shadow(-.5rem 0 .5rem rgb(161, 131, 225,0.5));
 }
 
 .footer {
@@ -147,7 +164,7 @@ body {
   right: 8rem;
   top: 40%;
   max-width: 24%;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 .section-two-text p {

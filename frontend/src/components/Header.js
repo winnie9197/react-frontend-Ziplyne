@@ -18,7 +18,7 @@ function Header() {
             </Nav>
             <div className="header-group">
                 <button className="request-demo">Request A Demo</button>
-                <FontAwesomeIcon icon={faSignInAlt} className="icon"/>
+                <a className="sign-in" href="#home"><FontAwesomeIcon icon={faSignInAlt} className="icon"/></a>
             </div>
         
     </div>
