@@ -64,18 +64,20 @@ body {
   color: #FFFFFF;
   font-weight: lighter;
   outline: 0 !important;
+  box-shadow: .1rem .1rem rgb(182, 139, 247,0.4);
 }
 
 .request-demo:hover {
-  background-color:#FFFFFF;
+  box-shadow: .1rem .1rem rgb(111, 57, 225, 0.4);
+  background-image: linear-gradient( #B68BF7, #A183E1,  #B68BF7)
 }
 
 .sign-in {
-  color: rgb(0,0,0,0.5);
+  color: rgb(0,0,0,0.4);
 }
 
 .sign-in:hover {
-  color: rgb(0,0,0,0.5);
+  color: rgb(0,0,0,0.6);
 }
 
 
